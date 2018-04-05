@@ -1,10 +1,12 @@
 # Monitoring Service Fabric Cluster with Log Analytics
 
+This document explains how to setup Log Analytics to monitor a Service Fabric in Azure.
+
 ## Disclamer
 
 This is not the absolute guide to setup Service Fabric cluster and application monitoring/logging, it is just a quick starter to those that want to use **Log Analytics** to monitor the cluster and **Application Insights** to monitor the application.
 
-## Log Analytics
+## Setting up
 
 Log Analytics is an Azure service that provides a centralize log analytics for different Azure sources. To use it with Service Fabric we need to:
 

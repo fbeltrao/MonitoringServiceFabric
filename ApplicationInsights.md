@@ -1,13 +1,15 @@
-# Monitoring Service Fabric Application
+# Monitoring Service Fabric Application with Application Insights
+
+This document explains how to setup Application Insights in a Service Fabric Service application. It has been built from a collection of different sources (check references).
+For complete guide [check the Application Insights for Service Fabric repository](https://github.com/Microsoft/ApplicationInsights-ServiceFabric)
 
 ## Disclamer
 
 This is not the absolute guide to setup Service Fabric cluster and application monitoring/logging, it is just a quick starter to those that want to use **Log Analytics** to monitor the cluster and **Application Insights** to monitor the application.
 
-## Application Insights
+## Setting up
 
-This document explains how to setup Application Insights in a Service Fabric Service application. It has been built from a collection of different sources (check references).
-For complete guide [check the Application Insights for Service Fabric repository](https://github.com/Microsoft/ApplicationInsights-ServiceFabric)
+There are 2 distinct ways to setup Application Insights dependending on the service type (ASP.NET Core or OWIN Web Application).
 
 ### ASP.NET Core (Kestrel)
 
