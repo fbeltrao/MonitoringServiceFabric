@@ -67,10 +67,11 @@ To get the workspace id and key click on advanced settings and then "Connect Sou
 ### <a name="performance-counters">4. Select Performance Counters to collect</a>
 1. Go to OMS Portal
 2. Click "Settings" (gear icon on top right)
-3. Select Data > Windows Performance Counters
+3. Select Data &rarr; Windows Performance Counters
 4. Select Performance counters you wish to collect
 5. Click "Add the selected performance counters"
 6. Click save (top left)
+![Selecting performance counters](media/select-performance-counters.png)
 
 ## Conclusion
 
